@@ -1,0 +1,55 @@
+<div class="titulo">
+    <h1>Especies</h1>
+    <hr>
+</div>
+
+<mat-progress-bar *ngIf="species.length == 0" mode="indeterminate"></mat-progress-bar>
+
+<div *ngIf="species.length > 0">
+
+    <div class="cards">
+        <button *ngFor="let specie of species" class="button_planet" (click)="getSpecie(specie)">
+            <mat-card class="card">
+                <div class="planet__icon">
+                    <span class="material-icons" style="font-size: 5rem;">
+                        accessibility_new
+                    </span>
+                </div>
+                <mat-card-header style="justify-content: center;">
+                    <mat-card-title>{{specie.name}}</mat-card-title>
+                </mat-card-header>
+                <mat-card-content style="text-align: justify;">
+                    <hr>
+                    <p>
+                        <strong>Clasificación: </strong>{{ specie.designation | titlecase}}
+                    </p>
+                    <p>
+                        <strong>Colores de ojos: </strong>{{ specie.eye_colors | titlecase }}
+                    </p>
+                    <p>
+                        <strong>Colores de pelo: </strong>{{ specie.hair_colors | titlecase }}
+                    </p>
+                    <p>
+                        <strong>Colores de piel: </strong>{{ specie.skin_colors | titlecase}}
+                    </p>
+                    <p>
+                        <strong>Esperanza de vida: </strong>{{ specie.average_lifespan | titlecase}}
+                    </p>
+                </mat-card-content>
+
+                <mat-card-actions class="actions_card">
+                    <button mat-stroked-button color="primary" style="display:none;">Saber más</button>
+                </mat-card-actions>
+            </mat-card>
+        </button>
+    </div>
+
+    <div class="buttons_page">
+        <hr>
+        <h2>Página {{page}}</h2>
+        <button mat-raised-button color="primary" style="margin-right: 5px;" [disabled]="!result.previous"
+            (click)="otherPage(page-1)">Anterior</button>
+        <button mat-raised-button color="primary" style="margin-left: 5px;" [disabled]="!result.next"
+            (click)="otherPage(page+1)">Siguiente</button>
+    </div>
+</div>
