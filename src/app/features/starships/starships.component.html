@@ -1,0 +1,57 @@
+<div class="titulo">
+    <h1>Naves Estelares</h1>
+    <hr>
+</div>
+
+<mat-progress-bar *ngIf="starships.length == 0" mode="indeterminate"></mat-progress-bar>
+
+<div *ngIf="starships.length > 0">
+    <div class="cards">
+        <button *ngFor="let starship of starships" class="button_planet" (click)="getStarship(starship)">
+            <mat-card class="card">
+                <div class="planet__icon">
+                    <span class="material-icons" style="font-size: 5rem;">
+                        local_airport
+                    </span>
+                </div>
+                <mat-card-header style="justify-content: center;">
+                    <mat-card-title>{{starship.name}}</mat-card-title>
+                </mat-card-header>
+                <mat-card-content style="text-align: justify;">
+                    <hr>
+                    <p>
+                        <strong>Modelo: </strong>{{ starship.model | titlecase}}
+                    </p>
+                    <p>
+                        <strong>Manufactturación: </strong>{{ starship.manufacturer | titlecase }}
+                    </p>
+                    <p>
+                        <strong>Coste de créditos: </strong>{{ starship.cost_in_credits | titlecase }}
+                    </p>
+                    <p>
+                        <strong>Longitud: </strong>{{ starship.length | titlecase}}
+                    </p>
+                    <p>
+                        <strong>Capacidad de carga: </strong>{{ starship.cargo_capacity | titlecase}}
+                    </p>
+                    <p>
+                        <strong>Clase de Nave Espacial: </strong>{{ starship.starship_class | titlecase}}
+                    </p>
+                </mat-card-content>
+
+                <mat-card-actions class="actions_card">
+                    <button mat-stroked-button color="primary" style="display:none;">Saber más</button>
+                </mat-card-actions>
+            </mat-card>
+        </button>
+    </div>
+
+    <div class="buttons_page">
+        <hr>
+        <h2>Página {{page}}</h2>
+        <button mat-raised-button color="primary" style="margin-right: 5px;" [disabled]="!result.previous"
+            (click)="otherPage(page-1)">Anterior</button>
+        <button mat-raised-button color="primary" style="margin-left: 5px;" [disabled]="!result.next"
+            (click)="otherPage(page+1)">Siguiente</button>
+    </div>
+</div>
