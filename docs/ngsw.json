@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1622480549681,
-  "index": "angular-pwa/index.html",
+  "timestamp": 1622481730857,
+  "index": "angular-pwa/browser/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "angular-pwa/favicon.ico",
-        "angular-pwa/index.html",
-        "angular-pwa/main.2ff98bd9ead226aa85b4.js",
-        "angular-pwa/manifest.webmanifest",
-        "angular-pwa/polyfills.94daefd414b8355106ab.js",
-        "angular-pwa/runtime.7b63b9fd40098a2e8207.js",
-        "angular-pwa/styles.200f2b87f921ccb252f0.css"
+        "angular-pwa/browser/favicon.ico",
+        "angular-pwa/browser/index.html",
+        "angular-pwa/browser/main.0387b3d7ff26e20fcf7d.js",
+        "angular-pwa/browser/manifest.webmanifest",
+        "angular-pwa/browser/polyfills.94daefd414b8355106ab.js",
+        "angular-pwa/browser/runtime.7b63b9fd40098a2e8207.js",
+        "angular-pwa/browser/styles.200f2b87f921ccb252f0.css"
       ],
       "patterns": [
         "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.1\\/dist\\/css\\/bootstrap\\.min\\.css"
@@ -31,23 +31,23 @@
         "ignoreVary": true
       },
       "urls": [
-        "angular-pwa/assets/icons/icon-128x128.png",
-        "angular-pwa/assets/icons/icon-144x144.png",
-        "angular-pwa/assets/icons/icon-152x152.png",
-        "angular-pwa/assets/icons/icon-192x192.png",
-        "angular-pwa/assets/icons/icon-384x384.png",
-        "angular-pwa/assets/icons/icon-512x512.png",
-        "angular-pwa/assets/icons/icon-72x72.png",
-        "angular-pwa/assets/icons/icon-96x96.png",
-        "angular-pwa/assets/icons2/icon-128x128.png",
-        "angular-pwa/assets/icons2/icon-144x144.png",
-        "angular-pwa/assets/icons2/icon-152x152.png",
-        "angular-pwa/assets/icons2/icon-192x192.png",
-        "angular-pwa/assets/icons2/icon-384x384.png",
-        "angular-pwa/assets/icons2/icon-512x512.png",
-        "angular-pwa/assets/icons2/icon-72x72.png",
-        "angular-pwa/assets/icons2/icon-96x96.png",
-        "angular-pwa/assets/images/logo-star-wars.png"
+        "angular-pwa/browser/assets/icons/icon-128x128.png",
+        "angular-pwa/browser/assets/icons/icon-144x144.png",
+        "angular-pwa/browser/assets/icons/icon-152x152.png",
+        "angular-pwa/browser/assets/icons/icon-192x192.png",
+        "angular-pwa/browser/assets/icons/icon-384x384.png",
+        "angular-pwa/browser/assets/icons/icon-512x512.png",
+        "angular-pwa/browser/assets/icons/icon-72x72.png",
+        "angular-pwa/browser/assets/icons/icon-96x96.png",
+        "angular-pwa/browser/assets/icons2/icon-128x128.png",
+        "angular-pwa/browser/assets/icons2/icon-144x144.png",
+        "angular-pwa/browser/assets/icons2/icon-152x152.png",
+        "angular-pwa/browser/assets/icons2/icon-192x192.png",
+        "angular-pwa/browser/assets/icons2/icon-384x384.png",
+        "angular-pwa/browser/assets/icons2/icon-512x512.png",
+        "angular-pwa/browser/assets/icons2/icon-72x72.png",
+        "angular-pwa/browser/assets/icons2/icon-96x96.png",
+        "angular-pwa/browser/assets/images/logo-star-wars.png"
       ],
       "patterns": []
     }
@@ -69,30 +69,30 @@
     }
   ],
   "hashTable": {
-    "angular-pwa/assets/icons/icon-128x128.png": "2ad1d2219dac249398dd70f6456756c45187bc00",
-    "angular-pwa/assets/icons/icon-144x144.png": "fd8c80a4a1ba27c38c94ed6bb0b3d8fc2eef3a51",
-    "angular-pwa/assets/icons/icon-152x152.png": "6a36d99652690ed0c4817ebbca4e183403c2dab5",
-    "angular-pwa/assets/icons/icon-192x192.png": "f3c44c00986a359b378f70793573192397b611f9",
-    "angular-pwa/assets/icons/icon-384x384.png": "6ce9a9cb803d1f489f837c0f2f57ba4b71df464b",
-    "angular-pwa/assets/icons/icon-512x512.png": "9ec636473f734c05cd820632058ce8c6e89a1635",
-    "angular-pwa/assets/icons/icon-72x72.png": "c66edc5b7a83456cdc2a2047f3609365abe56efa",
-    "angular-pwa/assets/icons/icon-96x96.png": "f58049208bf7c021625d84cfdf14e01084f056b5",
-    "angular-pwa/assets/icons2/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "angular-pwa/assets/icons2/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "angular-pwa/assets/icons2/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "angular-pwa/assets/icons2/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "angular-pwa/assets/icons2/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "angular-pwa/assets/icons2/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "angular-pwa/assets/icons2/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "angular-pwa/assets/icons2/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "angular-pwa/assets/images/logo-star-wars.png": "a4f109b67eca872cf31ed6dd0cbabf72846610fe",
-    "angular-pwa/favicon.ico": "16ecba50dd1403e0f6e78cb8580269a0ed8a3a72",
-    "angular-pwa/index.html": "7717296d75d77bc438a48093e6c8dfc38736bc48",
-    "angular-pwa/main.2ff98bd9ead226aa85b4.js": "717fe2337fdc8046c26dd002afc36f52dee8ec00",
-    "angular-pwa/manifest.webmanifest": "647db4fba4be264d65d1cbc9d3c6606d05610dcf",
-    "angular-pwa/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
-    "angular-pwa/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "angular-pwa/styles.200f2b87f921ccb252f0.css": "ee1b3738ffc11875ee91969f80951747fa7bd807"
+    "angular-pwa/browser/assets/icons/icon-128x128.png": "2ad1d2219dac249398dd70f6456756c45187bc00",
+    "angular-pwa/browser/assets/icons/icon-144x144.png": "fd8c80a4a1ba27c38c94ed6bb0b3d8fc2eef3a51",
+    "angular-pwa/browser/assets/icons/icon-152x152.png": "6a36d99652690ed0c4817ebbca4e183403c2dab5",
+    "angular-pwa/browser/assets/icons/icon-192x192.png": "f3c44c00986a359b378f70793573192397b611f9",
+    "angular-pwa/browser/assets/icons/icon-384x384.png": "6ce9a9cb803d1f489f837c0f2f57ba4b71df464b",
+    "angular-pwa/browser/assets/icons/icon-512x512.png": "9ec636473f734c05cd820632058ce8c6e89a1635",
+    "angular-pwa/browser/assets/icons/icon-72x72.png": "c66edc5b7a83456cdc2a2047f3609365abe56efa",
+    "angular-pwa/browser/assets/icons/icon-96x96.png": "f58049208bf7c021625d84cfdf14e01084f056b5",
+    "angular-pwa/browser/assets/icons2/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "angular-pwa/browser/assets/icons2/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "angular-pwa/browser/assets/icons2/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "angular-pwa/browser/assets/icons2/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "angular-pwa/browser/assets/icons2/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "angular-pwa/browser/assets/icons2/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "angular-pwa/browser/assets/icons2/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "angular-pwa/browser/assets/icons2/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "angular-pwa/browser/assets/images/logo-star-wars.png": "a4f109b67eca872cf31ed6dd0cbabf72846610fe",
+    "angular-pwa/browser/favicon.ico": "16ecba50dd1403e0f6e78cb8580269a0ed8a3a72",
+    "angular-pwa/browser/index.html": "2429dd446b31d7aa1c45bd6998506fe1319a0def",
+    "angular-pwa/browser/main.0387b3d7ff26e20fcf7d.js": "717fe2337fdc8046c26dd002afc36f52dee8ec00",
+    "angular-pwa/browser/manifest.webmanifest": "647db4fba4be264d65d1cbc9d3c6606d05610dcf",
+    "angular-pwa/browser/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
+    "angular-pwa/browser/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "angular-pwa/browser/styles.200f2b87f921ccb252f0.css": "ee1b3738ffc11875ee91969f80951747fa7bd807"
   },
   "navigationUrls": [
     {
