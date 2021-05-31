@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1622482491231,
+  "timestamp": 1622482711306,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -87,7 +87,7 @@
     "/assets/icons2/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/assets/images/logo-star-wars.png": "a4f109b67eca872cf31ed6dd0cbabf72846610fe",
     "/favicon.ico": "16ecba50dd1403e0f6e78cb8580269a0ed8a3a72",
-    "/index.html": "a9de4e748fbd9bc9126e5dee5c74bef986f9178b",
+    "/index.html": "0f0d16b48888b3c250848223d7da2651bc120bd7",
     "/main.0387b3d7ff26e20fcf7d.js": "717fe2337fdc8046c26dd002afc36f52dee8ec00",
     "/manifest.webmanifest": "647db4fba4be264d65d1cbc9d3c6606d05610dcf",
     "/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
